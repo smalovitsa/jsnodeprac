@@ -58,14 +58,26 @@
 
 // asdfsadfsad
 
-const button = {
-    width: 200,
-    text: 'Buy'
+// const button = {
+//     width: 200,
+//     text: 'Buy'
+// }
+
+// const redButton = {
+//     ...button,
+//     color: 'red'
+// }
+
+// console.table(redButton)
+
+const newPost = (post, addedAt = Date()) => ({
+    ...post,
+    addedAt,
+})
+
+const firstPost = {
+    id:1,
+    autor: 'Stas',
 }
 
-const redButton = {
-    ...button,
-    color: 'red'
-}
-
-console.table(redButton)
+newPost(firstPost)
