@@ -77,7 +77,8 @@ const newPost = (post, addedAt = Date()) => ({
 
 const firstPost = {
     id:1,
-    autor: 'Stas',
+    author: 'Stas',
 }
 
-newPost(firstPost)
+// newPost(firstPost)
+console.log(newPost(firstPost))
