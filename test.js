@@ -115,28 +115,36 @@
 // myFn(c = c + 1);
 // myFn(let d)
 
-let myArray = [1, 2, 3]
+// let myArray = [1, 2, 3]
+// console.log(myArray)
+
+// const myArray2 = new Array(1, 2, 3)
+// console.log(myArray2)
+
+// console.log(myArray[2])
+// console.log(myArray[1])
+// console.log(myArray[0])
+// console.log(myArray2[0])
+// console.log(myArray2[1])
+// console.log(myArray2[2])
+// console.log(myArray.length)
+
+// myArray2.pop()
+// const removedElement = myArray2.pop()
+// const removedElement2 = myArray2.pop()
+// console.log(removedElement)
+// console.log(removedElement2)
+// console.log(myArray2.length)
+
+// myArray2.unshift(true)
+// myArray2.unshift('stas', '123')
+// console.log(myArray2.length)
+// console.log(myArray2)
+
+
+const myArray = [1, 2, 3, 4, 5, 6, 7, 8]
 console.log(myArray)
 
-const myArray2 = new Array(1, 2, 3)
-console.log(myArray2)
+myArray.forEach(el => {console.log(el * 2)})
 
-console.log(myArray[2])
-console.log(myArray[1])
-console.log(myArray[0])
-console.log(myArray2[0])
-console.log(myArray2[1])
-console.log(myArray2[2])
-console.log(myArray.length)
-
-myArray2.pop()
-const removedElement = myArray2.pop()
-const removedElement2 = myArray2.pop()
-console.log(removedElement)
-console.log(removedElement2)
-console.log(myArray2.length)
-
-myArray2.unshift(true)
-myArray2.unshift('stas', '123')
-console.log(myArray2.length)
-console.log(myArray2)
+console.log(myArray)
