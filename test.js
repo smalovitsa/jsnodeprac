@@ -70,15 +70,28 @@
 
 // console.table(redButton)
 
-const newPost = (post, addedAt = Date()) => ({
-    ...post,
-    addedAt,
-})
+// const newPost = (post, addedAt = Date()) => ({
+//     ...post,
+//     addedAt,
+// })
 
-const firstPost = {
-    id:1,
-    author: 'Stas',
+// const firstPost = {
+//     id:1,
+//     author: 'Stas',
+// }
+
+// // newPost(firstPost)
+// console.log(newPost(firstPost))
+
+const fnWithError = () => {
+    throw new Error('Some error')
 }
 
-// newPost(firstPost)
-console.log(newPost(firstPost))
+try {
+    fnWithError()
+} catch (error) {
+    console.error(error)
+    console.log(error.message)
+}
+
+console.log('Continue...')
