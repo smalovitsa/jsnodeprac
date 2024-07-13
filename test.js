@@ -115,8 +115,16 @@
 // myFn(c = c + 1);
 // myFn(let d)
 
-const myArray = [1, 2, 3]
+let myArray = [1, 2, 3]
 console.log(myArray)
 
 const myArray2 = new Array(1, 2, 3)
 console.log(myArray2)
+
+console.log(myArray[2])
+console.log(myArray[1])
+console.log(myArray[0])
+console.log(myArray2[0])
+console.log(myArray2[1])
+console.log(myArray2[2])
+console.log(myArray.length)
