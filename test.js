@@ -135,3 +135,8 @@ const removedElement2 = myArray2.pop()
 console.log(removedElement)
 console.log(removedElement2)
 console.log(myArray2.length)
+
+myArray2.unshift(true)
+myArray2.unshift('stas', '123')
+console.log(myArray2.length)
+console.log(myArray2)
