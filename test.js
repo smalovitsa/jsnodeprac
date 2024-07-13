@@ -1,4 +1,4 @@
-'use strict'
+// 'use strict'
 
 // const aB= {
 //     a: 3+2,
@@ -96,10 +96,21 @@
 
 // console.log('Continue...')  
 
-'abc';
-a = a +3;
-c = a + b;
-d = 'Good ' + 'evening';
-myFunction(c, d);
-console.log('Hey');
+// 'abc';
+// a = a +3;
+// c = a + b;
+// d = 'Good ' + 'evening';
+// myFunction(c, d);
+// console.log('Hey');
 
+// function myFn(a) {
+//     console.log(a);
+// }
+// const b = true;
+// let c = 10;
+
+// myFn(2+3)
+// myFn(b)
+// myFn(c = c + 1)
+// myFn(c = c + 1);
+// myFn(let d)
