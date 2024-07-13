@@ -1,5 +1,7 @@
 // 'use strict'
 
+const { compileFunction } = require("vm")
+
 // const aB= {
 //     a: 3+2,
 //     b: 2+2    
@@ -155,19 +157,34 @@
 // const newArray = myArray.map(el => {return el * 3})
 // console.log(newArray)
 
+// const userProfile = {
+//     name: 'Stas',
+//     commentQty: 22,
+//     hasSignedAgreement: false,
+// }
+
+// const { name, commentQty } = userProfile
+// const { hasSignedAgreement} = userProfile
+
+// console.log(name)
+// console.log(commentQty)
+
+// const fruits = ['Apple', 'Banana']
+// const [fruitOne, fruitTwo] = fruits
+// console.log(fruitOne)
+// console.log(fruitTwo)
+
 const userProfile = {
     name: 'Stas',
     commentQty: 22,
     hasSignedAgreement: false,
 }
 
-const { name, commentQty } = userProfile
-const { hasSignedAgreement} = userProfile
+const userInfo = ({ name, commentQty }) => {
+    if (!commentQty) {
+        return `User ${name} has no comments`
+    }
+    return `User ${name} has ${commentQty} comments`
+}
 
-console.log(name)
-console.log(commentQty)
-
-// const fruits = ['Apple', 'Banana']
-const [fruitOne, fruitTwo] = fruits
-console.log(fruitOne)
-console.log(fruitTwo)
+console.log(userInfo(userProfile))
