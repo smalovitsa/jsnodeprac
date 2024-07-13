@@ -83,15 +83,23 @@
 // // newPost(firstPost)
 // console.log(newPost(firstPost))
 
-const fnWithError = () => {
-    throw new Error('Some error')
-}
+// const fnWithError = () => {
+//     throw new Error('Some error')
+// }
 
-try {
-    fnWithError()
-} catch (error) {
-    console.error(error)
-    console.log(error.message)
-}
+// try {
+//     fnWithError()
+// } catch (error) {
+//     console.error(error)
+//     console.log(error.message)
+// }
 
-console.log('Continue...') 
+// console.log('Continue...')  
+
+'abc';
+a = a +3;
+c = a + b;
+d = 'Good ' + 'evening';
+myFunction(c, d);
+console.log('Hey');
+
