@@ -189,18 +189,26 @@ const { compileFunction } = require("vm")
 
 // console.log(userInfo(userProfile))
 
-const months = 2
+// const months = 2
 
-switch (months) {
-    case 12:
-        console.log('Dec')
-        break
-    case 1: 
-        console.log('Jan')
-        break
-    case 2:
-        console.log('Feb')
-        break
-    default: 
-        console.log('Not winter months')
-}
+// switch (months) {
+//     case 12:
+//         console.log('Dec')
+//         break
+//     case 1: 
+//         console.log('Jan')
+//         break
+//     case 2:
+//         console.log('Feb')
+//         break
+//     default: 
+//         console.log('Not winter months')
+// }
+
+
+let value = 11
+console.log(value >= 0 ? value : -value)
+
+value = -5
+const res = value >= 0 ? value : -value
+console.log(res)
