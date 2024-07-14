@@ -174,17 +174,33 @@ const { compileFunction } = require("vm")
 // console.log(fruitOne)
 // console.log(fruitTwo)
 
-const userProfile = {
-    name: 'Stas',
-    commentQty: 22,
-    hasSignedAgreement: false,
-}
+// const userProfile = {
+//     name: 'Stas',
+//     commentQty: 22,
+//     hasSignedAgreement: false,
+// }
 
-const userInfo = ({ name, commentQty }) => {
-    if (!commentQty) {
-        return `User ${name} has no comments`
-    }
-    return `User ${name} has ${commentQty} comments`
-}
+// const userInfo = ({ name, commentQty }) => {
+//     if (!commentQty) {
+//         return `User ${name} has no comments`
+//     }
+//     return `User ${name} has ${commentQty} comments`
+// }
 
-console.log(userInfo(userProfile))
+// console.log(userInfo(userProfile))
+
+const months = 2
+
+switch (months) {
+    case 12:
+        console.log('Dec')
+        break
+    case 1: 
+        console.log('Jan')
+        break
+    case 2:
+        console.log('Feb')
+        break
+    default: 
+        console.log('Not winter months')
+}
