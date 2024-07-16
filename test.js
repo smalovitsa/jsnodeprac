@@ -206,9 +206,32 @@ const { compileFunction } = require("vm")
 // }
 
 
-let value = 11
-console.log(value >= 0 ? value : -value)
+// let value = 11
+// console.log(value >= 0 ? value : -value)
 
-value = -5
-const res = value >= 0 ? value : -value
-console.log(res)
+// value = -5
+// const res = value >= 0 ? value : -value
+// console.log(res)
+
+for (let i = 0; i < 5; i++) {
+    console.log(i)
+}
+
+const myArray = ['first', 'second', 'third']
+myArray.forEach((element, index) => {
+    console.log(element, index)
+})
+
+
+let i = 0
+while (i < 5) {
+    console.log(i)
+    i++
+}
+
+let h = 0 
+
+do {
+    console.log(h)
+    h++
+} while (h<5)
