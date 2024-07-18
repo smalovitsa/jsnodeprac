@@ -1,7 +1,7 @@
 export default class Comment {
     constructor(text) {
         this.text = text;
-        this.votesQty = 0;
+        this.votesQty = 5;
     }
 
     upvote() {
