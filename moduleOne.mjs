@@ -1,5 +1,8 @@
-const myName = () => {
-    console.log('Bogdan')
-}
+// moduleOne.mjs
+export const myName = () => {
+    console.log('Bogdan');
+};
 
-export {myName}
+// Экспортируем результат вызова функции
+const myNameResult = myName(); // Это выведет 'Bogdan'
+export default myNameResult;
