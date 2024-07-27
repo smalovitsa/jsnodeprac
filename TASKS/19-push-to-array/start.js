@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const myNumbers = [4,15,22,108]
+console.log(myNumbers)
+myNumbers.push(10)
+console.log(myNumbers)
+console.log(myNumbers.length)

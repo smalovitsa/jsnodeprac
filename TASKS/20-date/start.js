@@ -4,3 +4,7 @@
  *
  * 2. Выведите значение в консоль
  */
+
+const timer = new Date
+const msTimer = timer.getTime()
+console.log(msTimer)

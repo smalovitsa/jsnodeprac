@@ -9,6 +9,8 @@
 let myVariable1 = 10
 let myVariable2 = '5'
 
+console.log(parseInt('abc'))
+console.log(typeof parseInt('abc'))
 // Напишите код здесь
 
 myVariable1 = '20'
